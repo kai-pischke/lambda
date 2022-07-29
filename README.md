@@ -7,7 +7,7 @@ A toy calculator for playing with the [Lambda Calculus](https://en.wikipedia.org
 ## Usage
 
 ### Display a term :mag_right: 
-The term will be [α-converted](https://en.wikipedia.org/wiki/Lambda_calculus) to so that variables are chosen in alphabetical order.
+The term will be silently [α-converted](https://en.wikipedia.org/wiki/Lambda_calculus) so that variables are chosen in alphabetical order.
 ```
 >> (λxy.x)(λx.x)
 (λab.a)(λa.a)
